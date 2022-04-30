@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <div>
+        <div id="counter1">0</div>
+
+        <p class="home-team">Home</p>
+      </div>
+      <div>
+        <button onclick="scoreHomepluseins()" class="Home">+1</button>
+        <button onclick="scoreHomepluszwei() " class="Home">+2</button>
+        <button onclick="scoreHomeplusdrei()" class="Home">+3</button>
+      </div>
+    </div>
+    <div class="container2">
+      <div>
+        <div id="counter2">0</div>
+
+        <p class="away-team">Away</p>
+      </div>
+      <div>
+        <button onclick="scoreAwaypluseins()" class="Away">+1</button>
+        <button onclick="scoreAwaypluszwei()" class="Away">+2</button>
+        <button onclick="scoreAwayplusdrei()" class="Away">+3</button>
+      </div>
+    </div>
+    <div>
+      <button onclick="reset()" class="reset">Reset</button>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
